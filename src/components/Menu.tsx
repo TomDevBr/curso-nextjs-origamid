@@ -7,7 +7,7 @@ export default function Menu() {
         <Link href="/">Home</Link>
       </li>
       <li>
-        <Link href="/sobre#empresa" scroll={false}>
+        <Link href="/sobre" scroll={false}>
           Sobre
         </Link>
       </li>
