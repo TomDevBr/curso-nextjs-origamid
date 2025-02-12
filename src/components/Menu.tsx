@@ -1,8 +1,16 @@
+import Link from 'next/link';
+
 export default function Menu() {
   return (
     <ul className="menu">
-      <li>Home</li>
-      <li>Sobre</li>
+      <li>
+        <Link href="/">Home</Link>
+      </li>
+      <li>
+        <Link href="/sobre#empresa" scroll={false}>
+          Sobre
+        </Link>
+      </li>
     </ul>
   );
 }
