@@ -11,6 +11,11 @@ export default function Menu() {
           Sobre
         </Link>
       </li>
+       <li>
+        <Link href="/imc" scroll={false}>
+          Imc
+        </Link>
+      </li>
     </ul>
   );
 }
